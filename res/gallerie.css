@@ -1,0 +1,113 @@
+
+/* -------------------------------------------- */
+	/* 
+		fichier css pour gallerie.html
+	*/
+/* -------------------------------------------- */
+
+
+	/* Mise en Forme */
+
+		body, .Photo_Area
+		{	
+			background-color : rgb(20,20,30);
+		}
+		
+		
+		header
+		{
+			color : white;
+			
+			margin : 20px auto;
+			
+			height : 50px;
+		}
+		
+			header a
+			{
+				color : white;
+			}
+			header a:visited
+			{
+				color : rgb(230,150,230);
+			}
+			
+		
+		.Gallerie
+		{
+			margin : 10% auto;
+			
+			padding : 0px;
+			
+			width : 90%;
+			
+		}
+		
+			.Photo_Area
+			{
+				margin : 0px auto;
+				
+				padding : 2%;
+				
+				width : 20%;
+				
+				display : inline-block;
+				
+				text-align : center;
+				vertical-align : middle;
+			}
+			
+				.Photo
+				{
+					max-width : 100%;
+					max-height : 100%;
+					
+					margin : 0px auto;
+					
+					border-radius : 20px 20px;
+				}
+				
+				.Photo_Légende
+				{
+					text-align : center;
+					
+					color : rgb(200,200,150);
+				}
+	 
+	 
+	 
+	 
+	 
+	 		
+		footer
+		{
+			text-align : right;
+			
+			color : white;
+			
+			margin : 20px auto;
+			
+			height : 50px;
+		}
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 

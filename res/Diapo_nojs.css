@@ -1,0 +1,167 @@
+
+/* -------------------------------------------- */
+	/* 
+		fichier css pour le diapo (sans javascript)
+	*/
+/* -------------------------------------------- */
+
+
+			/* séléction d'une dizaine de photo, pas plus vu la lourdeur d'execution */
+		
+			
+		/* Mise en arrière plan des photos non choisis */
+		
+		
+			.Photo_Cadre
+			{
+				z-index : -100;
+			}
+	
+	
+		/* Diapo */
+		
+		
+			/* Fonctions du diapo */
+			
+			
+				@keyframes Fondu
+				{
+					0%	{filter : opacity(100%):}
+					100%	{filter : opacity(0%);}
+				}
+				/* Chrome, Safari, Opera */   @-webkit-keyframes Fondu 
+				{
+					0%	{-webkit-filter : opacity(100%);}
+					100%	{-webkit-filter : opacity(0%);}
+				}
+				
+			
+			
+			#Photo_06
+			{
+				z-index : -1;
+				display : block;
+				
+				
+				/* Chrome, Safari, Opera */   -webkit-animation : Fondu 5s linear 5s forwards;
+				animation : Fondu 5s linear 5s forwards;
+			}
+			
+			#Photo_02
+			{
+				z-index : -2;
+				display : block;
+				
+				
+				/* Chrome, Safari, Opera */   -webkit-animation : Fondu 5s linear 15s forwards;
+				animation : Fondu 5s linear 15s forwards;
+			}
+			
+			#Photo_01
+			{
+				z-index : -3;
+				display : block;
+				
+				
+				/* Chrome, Safari, Opera */   -webkit-animation : Fondu 5s linear 25s forwards;
+				animation : Fondu 5s linear 25s forwards;
+			}
+			
+			#Photo_04
+			{
+				z-index : -4;
+				display : block;
+				
+				
+				/* Chrome, Safari, Opera */   -webkit-animation : Fondu 5s linear 35s forwards;
+				animation : Fondu 5s linear 35s forwards;
+			}
+			
+			#Photo_08
+			{
+				z-index : -5;
+				display : block;
+				
+				
+				/* Chrome, Safari, Opera */   -webkit-animation : Fondu 5s linear 45s forwards;
+				animation : Fondu 5s linear 45s forwards;
+			}
+			
+			#Photo_05
+			{
+				z-index : -6;
+				display : block;
+				
+				
+				/* Chrome, Safari, Opera */   -webkit-animation : Fondu 5s linear 55s forwards;
+				animation : Fondu 5s linear 55s forwards;
+			}
+			
+			#Photo_07
+			{
+				z-index : -7;
+				display : block;
+				
+				
+				/* Chrome, Safari, Opera */   -webkit-animation : Fondu 5s linear 65s forwards;
+				animation : Fondu 5s linear 65s forwards;
+			}
+			
+			#Photo_03
+			{
+				z-index : -8;
+				display : block;
+				
+				
+				/* Chrome, Safari, Opera */   -webkit-animation : Fondu 5s linear 75s forwards;
+				animation : Fondu 5s linear 75s forwards;
+			}
+		
+		
+		
+			
+		/* Photo de fin de Diapo (reste affichée afin d'éviter l'angoisse de la page "blanche" */
+			
+		
+			/* Fonctions du lien de fin */
+			
+			
+				@keyframes Lien_Up
+				{
+					100%	{z-index : 1;}
+				}
+				/* Chrome, Safari, Opera */   @-webkit-keyframes Lien_Up 
+				{
+					100%	{z-index : 1;}
+				}
+				
+			
+			#Photo_FinCss
+			{
+				z-index : -11;
+				display : block;
+				
+				
+				/* Chrome, Safari, Opera */   -webkit-animation : Lien_Up 1s linear 80s forwards;
+				animation : Lien_Up 1s linear 80s forwards;
+			}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
